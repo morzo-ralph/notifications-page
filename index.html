@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Notifications page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+  <div class="container" role="container">
+    <div class="container-card">
+      <div class="header" role="header">
+        <div class="header-component"><p class="text-header">Notification <span id="three">3</span></p></div>
+        <div class="header-component text-align-right" id="mark-all-read">Mark all as read</div>
+      </div>
+      <div class="notifications-list">
+        <div class="notification">
+          <div class="notification-avatar"><img src="./assets/images/avatar-mark-webber.webp" alt=""></div>
+          <div class="notification-info"> <span class="text-normal"><b> Mark Webber</b></span> reacted to your recent post <span class="text-gray"><b> My first tournament today!</b></span> <span class="unread-circle"> &#11044; </span> <br>
+            <span> 1m ago</span>
+          </div>
+        </div>
+        <div class="notification">
+          <div class="notification-avatar"><img src="./assets/images/avatar-angela-gray.webp" alt=""></div>
+          <div class="notification-info"> 
+            <span class="text-normal"><b>Angela Gray</b> </span>  followed you <span class="unread-circle">&#11044;</span> <br>
+            <span>5m ago</span>
+          </div>
+        </div>
+        <div class="notification">
+          <div class="notification-avatar"><img src="./assets/images/avatar-jacob-thompson.webp" alt=""></div>
+          <div class="notification-info"> <span class="text-normal"><b>Jacob Thompson</b> </span> has joined your group <span class="text-primary-blue"><b>Chess Club</b>  </span> <span class="unread-circle">&#11044;</span><br>
+            <span class=""> 1 day ago</span>
+          
+          </div>
+        </div>
+        <div class="notification no-border">
+          <div class="notification-avatar"><img src="./assets/images/avatar-rizky-hasanuddin.webp" alt=""></div>
+          <div class="notification-info"> <span class="text-normal"><b> Rizky Hasanuddin </b></span>sent you a private message <br>
+            <span> 5 days ago</span>
+          </div>
+        </div>
+        
+        <div class="notification-message">Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+          I'm already having lots of fun and improving my game.</div>
+          &nbsp;
+          
+        <div class="notification no-border" id="right-img-container">
+          <div class="notification-avatar"><img src="./assets/images/avatar-kimberly-smith.webp" alt=""></div>
+          <div class="notification-info" id="right-img-padding">
+         
+            <span class="text-normal"><b>Kimberly Smith</b></span> commented on your picture <br> 1 week ago
+            <img src="./assets/images/image-chess.webp" width="50px" id="right-img">
+          </div> 
+          
+          
+        </div>
+        
+        <div class="notification no-border">
+          <div class="notification-avatar"><img src="./assets/images/avatar-nathan-peterson.webp" alt=""></div>
+          <div class="notification-info">  <span class="text-normal"><b>Nathan Peterson</b></span>
+             reacted to your recent post 5 end-game strategies to increase your win rate <br>
+           <span> 2 weeks ago</span>
+          
+          </div>
+        </div>
+        <div class="notification no-border">
+          <div class="notification-avatar"><img src="./assets/images/avatar-anna-kim.webp" alt=""></div>
+          <div class="notification-info"> 
+            <span class="text-normal"><b>Anna Kim </b></span>
+            left the group <span class="text-primary-blue"><b> Chess Club</b></span> <br>
+            <span>2 weeks ago</span>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    </div>
+   &nbsp;
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">ral_3.14</a>.
+  </div>
+</body>
+</html>
+<script src="./js/scripts.js"></script>
